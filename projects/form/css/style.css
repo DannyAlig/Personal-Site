@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+html,body {
+	text-align: center;
+
+	font-family: Roboto Condensed, Trebuchet MS;
+	background-color: #90CAF9;
+}
+
+#topblock{
+	display: flex;
+	background: linear-gradient(0deg, #FF9800, white);
+	align-items:center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 14px;
+  width: 70%;
+  max-width: 800px;
+  
+}
+
+.horiz{
+ 
+  width: 80%;
+  border: 1px solid black;
+}
+
+#main-content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+ 
+}
+
+
+#portfolio-return{
+  position:absolute;
+  left:1%;
+  top: 1%;
+}
+
+#form-box{
+  background-color: #ccffff;
+  padding-top: 3%;
+  border-radius: 2%;
+  margin-bottom: 5%;
+  width: 90%;
+  max-width:600px;
+  align-self: center;
+  justify-self: center;
+
+}
+
+label{
+  color: darkblue;
+
+}
+
+form{
+  text-align:left;
+  position:relative;
+  left:4%;
+  font-size: 10pt;
+ 
+}
+
+input{
+  padding: 3px;
+  margin: 2px;
+  position:relative;
+  text-align: left;
+  left: 0%;
+}
+
+textarea{
+  width: 80%;
+  height:100px;
+  padding: 0px;
+  font-family: Trebuchet MS;
+  font-size: 10pt;
+  margin-top: 5px;
+}
+
+#submit-button{
+  display: flex;
+  padding:10px;
+  justify-content: center;
+  
+}
+
+#submit{
+  padding:9px;
+  border-radius: 8px;
+  background: linear-gradient(0deg, rgb(252, 177, 16), white, orange);
+  
+  font-family: Roboto Condensed;
+  font-size:11pt;
+  
+}
+
+ button:hover{
+  background-color: lightgreen;
+}
+
+.topbox{
+width:150px;
+}
+
+#topthree{
+  display:flex;
+  flex-direction:column;
+  text-align:right;
+  margin-right:40%;
+  margin-top:20px;
+}
+
+#radiobuttons{
+  display:flex;
+  flex-direction:column;
+  margin-top:5px;
+  
+}
+
+@media screen and (max-width: 580px){
+
+  #form-box{
+    background-color: #ccffff;
+    padding-top: 3%;
+    border-radius: 2%;
+    margin-bottom: 5%;
+    width:90vw;
+    align-self: center;
+    justify-self: center;
+    
+  }
+
+  #topthree{
+    display:flex;
+    flex-direction:column;
+    text-align:right;
+    margin-right: 20%;
+    
+  }
+
+  #topblock{
+    display: flex;
+    background: linear-gradient(0deg, #FF9800, white);
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 14px;
+    width: 85%;
+    max-width: 800px;
+    margin-top: 30px;
+  }
+
+  h1{
+    font-size: 18pt;
+  }
+
+  textarea{
+    width: 90%;
+    height:100px;
+    padding: 0px;
+    font-family: Trebuchet MS;
+    font-size: 10pt;
+    margin-top: 5px;
+  }
+  
+}

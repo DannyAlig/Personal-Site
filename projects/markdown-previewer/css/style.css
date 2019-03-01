@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body,html{
+    color:rgb(94, 17, 129);
+    background-color:white;
+    font-family: Roboto Condensed;
+}
+
+#whole-site-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+
+#portfolio-return{
+    position:absolute;
+    left:1%;
+    top: 1%;
+}
+
+#appwrapper{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+#header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-app{
+    display: flex;
+    flex-direction: row;
+    width:90vw;
+    min-height: 80vh;
+
+}
+
+#editor{
+    padding: 5px;
+    font-family: Courier New;
+    
+    height:inherit;
+    border:2px solid black;
+    min-height: 70vh;
+    color: black;
+
+}
+
+#preview{
+    padding: 10px;
+    height:inherit;
+    border:2px solid black;
+    
+
+}
+
+#editor-side, #preview-side {
+    width: 43vw;
+    min-height: inherit;
+    display:flex;
+    flex-direction: column;
+    margin:5px;
+    
+    
+}
+
+#input-title, #output-title {
+    align-self:center;
+}
+
+#marked-link{
+    align-self:center;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 
+  <title>Random Quote Machine</title>
+
+  <meta name="description" content="A quote generator that randomly pulls a quote and author from an index. Designed and coded by Danny Alig using JavaScript, HTML and CSS.">
+  
+
+  <!-- FontAwesome: -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<!--This link instructs where to find the CSS style file-->
+<link rel="stylesheet" href="css/style.css">	 
+        
+  
+</head>
+
+<body>
+
+<div id='whole-site-container'>
+
+    <a id="portfolio-return" href="../../portfolio.html">Back to Projects</a>
+
+    <div id="quote-box">
+
+        <div id="top-text-box">
+
+            <div id ="text-box">        
+                <p id="text">"This is where the quote goes. It will be randomly chosen from an index of quotes."</p>        
+            </div>
+
+            <div id="author-box">
+                   <span id="author" default="Johnny"></span>
+            </div>
+
+        </div>
+
+        <div id="button-container">
+            <button id='new-quote' class='clickable' onclick="newQuote()">Click for a new quote!</button><br>
+            <a id='tweet-quote' target="_blank"><button id="tweet-button">Tweet This <i class="fab fa-twitter"></i></button></a>
+        </div>
+
+    </div>
+
+    
+
+    <div id="attribution"><span>Designed and Coded by Danny Alig</span></div>
+
+
+</div>
+
+
+<script src="randomquote.js"></script>
+   
+
+</body>
+
+
+</html>

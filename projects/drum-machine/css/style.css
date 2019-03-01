@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body,html{
+    color:rgb(94, 17, 129);
+    background-color:white;
+    font-family: Roboto Condensed;
+}
+
+#whole-site-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(35deg, red,orange,yellow,green,blue,purple,red);
+}
+
+#portfolio-return{
+    position:absolute;
+    left:1%;
+    top: 1%;
+    color: white;
+}
+
+#all-display{
+    width:95vw;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#display{
+    width: 420px;
+    height:500px;
+    background: linear-gradient(20deg, rgb(121, 119, 119), rgb(238, 200, 200), rgb(124, 122, 122));
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title-text{
+    height:8%;
+    width:87%;
+    font-size:15pt;
+    color: black;
+    text-align:center;
+    margin-top: 1vh;
+    
+}
+
+#text-display-bar{
+    height:11%;
+    min-height:25px;
+    width: 56%;
+    display:flex;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: red;
+    font-family: Orbitron;
+    font-size: 22pt;
+    border-radius:5px;
+    border: 2px solid blue;
+}
+
+
+#drum-buttons-container{
+    height:70%;
+    width: 87%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    margin-top:1vh;
+}
+
+#drum-buttons-container span{
+    font-size:14pt;
+    color: blue;
+}
+
+.button-row{
+    width:99%;
+    height:33%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.drum-pad{
+    width:30%;
+    height:99%;
+    background: linear-gradient(15deg, rgb(255, 76, 5), rgb(255, 141, 11));
+    color: black;
+    border-radius: 10px;
+    font-size: 20pt;
+    
+    
+}
+
+#instructions{
+    width:inherit;
+    font-size:11pt;
+    display: flex;
+    justify-content: center;
+    color: black;
+
+
+}
+
+@media screen and (max-width: 440px), screen and (max-height: 600px){
+
+    #display{
+        width: 95vw;
+        height:80vh;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #text-display-bar{
+        height:11%;
+        min-height:25px;
+        width: 70%;
+        display:flex;
+        align-items: center;
+        background: rgb(0, 0, 0);
+        color: red;
+        font-family: Orbitron;
+        font-size: 15pt;
+        border-radius:5px;
+        border: 2px solid blue;
+
+    }
+
+    #drum-buttons-container span{
+        font-size:11pt;
+    }
+
+    .drum-pad{
+        width:30%;
+        height:99%;
+        background: linear-gradient(15deg, rgb(255, 76, 5), rgb(255, 141, 11));
+        color: black;
+        border-radius: 10px;
+        font-size: 15pt;
+        
+    }
+
+    
+
+}

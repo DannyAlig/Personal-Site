@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>User Input Form</title>
+
+  <meta name="description" content="A simple form element which contains single line text fields, radio buttons, checkboxes, and a text area input.">
+  
+  
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+		<div id="main-content-container">
+
+      <a id="portfolio-return" href="../../portfolio.html">Back to Projects</a>
+      
+      <div id="topblock">
+          <h1 id="title">Tell Us About Yourself</h1>
+      </div>
+      
+      <hr class="horiz">
+
+		  <p id="description">Please complete this form to let us know a little more about you:</p>
+    
+  
+    <div id="form-box">
+
+		<form id="survey-form">
+  
+      <div id="topthree">
+
+      <label id="name-label">*Name:
+        <input id="name" class ="topbox" type="text" name="name" required="" placeholder="Enter your name"><br><br>
+      </label>
+      
+      <label id="email-label">*Email: 
+        <input id="email" class = "topbox" type="email" name="email" required="" placeholder="Enter your email"><br><br>
+      </label> 
+        
+      <label id="number-label">*Age: 
+        <input id="number" class = "topbox" type="number" name="age" required="" placeholder="Enter age" min="12" max="150"><br><br>
+      </label> 
+     
+     
+      <label id="exp-level">Experience:
+          <select id="dropdown" name="exp-level">
+              <option disabled="" value="">Select your experience level</option>
+              <option value="beginner">Beginner</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="advanced">Advanced</option>
+            </select>
+      </label> 
+    </div>
+      <br>
+
+      <label id="excitement-level">Excitement level:<div id ="radiobuttons">
+        <label><input type="radio" name="exc-level" value="low"/>&nbsp;&nbsp;Low</label>
+        <label><input type="radio" name="exc-level" value="medium"/>&nbsp;&nbsp;Medium</label> 
+        <label><input type="radio" name="exc-level" value="high"/>&nbsp;&nbsp;High</label> </div>
+      </label>
+    
+      <br>
+
+      <div id="checkbox form">
+      
+        <label for="source">How did you hear about us?</label><br><br>
+        
+        <div id="checkboxes">
+           
+           <label><input type="checkbox" value="Search Engine" name="source">&nbsp;&nbsp;Search Engine</label><br>
+            <label><input type="checkbox" value="Publication" name="source">&nbsp;&nbsp;Newspaper/Publication</label><br>
+            <label><input type="checkbox" value="Publication" name="source">&nbsp;&nbsp;Online Ad</label><br>
+          <label><input type="checkbox" value="Friend" name="source">&nbsp;&nbsp;Friend/Family</label>
+        
+        </div>
+
+        <br>
+
+        <div id="textinput">
+           <label id="textarea-label">Additional comments:<br>
+            <textarea id="additional-text" placeholder="Enter your comment"></textarea></label>
+        </div>
+
+        <div id="submit-button">
+            <button id="submit" type="submit">Submit</button>
+        </div>
+
+    </form>
+ 
+    </div>
+
+  </div>
+			 
+</body>
+</html>
+  
